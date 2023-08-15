@@ -67,15 +67,15 @@
 }
 .bar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .line{
     text-align: center;
-    padding: 40px;
+    padding: 40px 20px;
 }
 .ser{
-    padding: 40px;
+    padding: 40px 20px;
 }
 .aa a{
     text-decoration: none;
@@ -126,7 +126,7 @@
     margin-top: 30px;
     width:50%;
     text-align: center;
-    padding-left: 60px;
+    padding-left: 90px;
 }
 .qr{
     display: flex;
@@ -142,47 +142,6 @@
     
 }
 .t1{
-    padding-left:95px;
-    font-size: 50%;
-}
-.pic{
-    display: flex;
-}
-.pic img{
-    width: 100%;
-}
-.sub1{
-    background-color: green;
-    position: relative;
-}
-.con{
-    background-color: white;
-    text-align: center;
-    width: 85%;
-    border-radius: 10%;
-    padding: 10px;
-    position: absolute;
-    top: 70%;
-    left: 2%;
-    justify-content: center;
-    align-items: center;
-}
-.blue{
-    background-color: blue;
-}
-.sub2{
-    background-color: green;
-    position: relative;
-}
-.sub3{
-    background-color: green;
-    position: relative;
-}
-.sub4{
-    background-color: green;
-    position: relative;
-}
-.pic{
-    justify-content: space-around;
-    padding: 10px;
+    padding-left:120px;
+    font-size: 70%;
 }
