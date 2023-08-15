@@ -6,109 +6,65 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/index.css">
     <style>
-        .blue{
-            width: 100%;
-            background-color: blue;
-        }
-        .pic{
+        .page1{
             display: flex;
-            flex-wrap: wrap;
+        }
+        .image{
+            display: flex;
+            padding: 20px;
+            
+        }
+        .pics1{
+            width: 49%;
             justify-content: space-around;
-            padding: 10px;
-        }
-        .sub1{
-            width: 24.5%;
-            background-color: blue;
-            height: 400px;
-            position: relative;
-            border-radius: 10px;
-        }
-        .sub1 img{
-            width: 100%;
-            border-radius: 10px 10px 0 0;
-        }
-        .con{
-            background-color: white;
-            width: 93%;
-            padding-bottom: 10px;
-            position: absolute;
-            top: 50%;
-            margin: 10px;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             flex-wrap: wrap;
         }
-        .sub2{
-            width: 24.5%;
-            background-color: blue;
-            height: 400px;
-            position: relative;
-            border-radius: 10px;
-        }
-        .sub2 img{
+        .pics1 img{
             width: 100%;
-            border-radius: 10px 10px 0 0;
         }
-        .sub3{
-            width: 24.5%;
-            background-color: blue;
-            height: 400px;
-            position: relative;
-            border-radius: 10px;
+        .price{
+            display: flex;
         }
-        .sub3 img{
-            width: 100%;
-            border-radius: 10px 10px 0 0;
+        .per{
+            color: rgb(204, 28, 57);
+            padding-left: 10px;
         }
-        .sub4{
-            width: 24.5%;
-            background-color: blue;
-            height: 400px;
-            position: relative;
-            border-radius: 10px;
+        .pics2 img{
+                width: 100%;
         }
-        .sub4 img{
-            width: 100%;
-            border-radius: 10px 10px 0 0;
+        .bot{
+            background-color:#0e3051 ;
         }
-        
     </style>
 </head>
 <body>
-<div class="blue">
-    <h1>DEALS OF THE WEEK</h1>
-    <div class="pic">
-        <div class="sub1"><img src="./images/AS_D_Deals_01.png" alt="loading...">
-        <div class="con"><p>Exclusive App-only offer</p>
-            <h3>Use Code:ASAP500</h3>
-            <p style="text-align: center;">Flat $500 off on your ever first purchase throughthe App!</p>
+    <div class="page1">
+        <div class="left">
+            <div class="pics2">
+                <img src="./images/AS_D_Designerpicks_01.jpeg" alt="">
+            </div>
+            <div class="bot">
+                <img src="./images/mask.svg" alt="">
+            </div>
+        </div>
+        <div class="image">
+            <div class="pics1"><img src="./images/90461-4996312.avif" alt="loading...">
+                <p style="font-size: 15px;">Casual Shirts</p>
+                <p>Men White Slim Fit Textured Full Sleeves Casual Shirts</p>
+                <div class="price">
+                    <div class="pri"><del>2,699</del> 1,862</div> 
+                    <div class="per">41% off</div>
+                </div>
+            </div>
+            <div class="pics1"><img src="./images/676729-7081362.avif" alt="loading...">
+                <p style="font-size: 15px;">Track Pants & Joggers</p>
+                <p>Men Solid Regular Fit Navy Jogger Pants</p>
+                <div class="price">
+                    <div class="pri"><del>1,999</del> 1,379</div> 
+                    <div class="per">31% off</div>
+                </div>
+            </div>
         </div>
     </div>
-        <div class="sub2"><img src="./images/AS_D_Deals_02.png" alt="loading..."><div class="con">
-                <p>shop and Save Now!</p>
-                <h3>Use Code:ASBUY2</h3>
-                <p style="text-align: center;">UPTO 15% OFF on purchase of 2 & more products</p>
-        </div>
-    </div>
-        <div class="sub3"><img src="./images/AS_D_Deals_03.png" alt="loading...">
-        <div class="con">
-                <p>Shop Smarter,Save Bigger!</p>
-                <h3>Use Code:ASBUY3</h3>
-                <p style="text-align: center;">UPTO 20% OFF on purchase of 3& more
-                    products</p>
-        </div>
-    </div>
-        <div class="sub4"><img src="./images/AS_D_Deals_04.png" alt="loading...">
-        <div class="con">
-                <p>Shop,save,repeat!</p>
-                <h3>Use Code:ASBUY4</h3>
-                <p style="text-align: center;">UPTO 25% OFF on purchase of 4& more
-                    products</p>
-        </div>
-    </div>
-    </div>
-</div>
 </body>
 </html>

@@ -145,3 +145,143 @@
     padding-left:120px;
     font-size: 70%;
 }
+.blue{
+    width: 100%;
+    background-color: #0e3051;
+}
+.blue h1{
+    color: yellow;
+    padding: 30px;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+.sub1{
+    width: 24.5%;
+    background-color: blue;
+    height: 350px;
+    position: relative;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.sub1 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.con{
+    background-color: white;
+    width: 93%;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 40%;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: translate(-50% -50%);
+}
+.sub2{
+    width: 24.5%;
+    background-color: blue;
+    height: 350px;
+    position: relative;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.sub2 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.sub3{
+    width: 24.5%;
+    background-color: blue;
+    height: 350px;
+    position: relative;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.sub3 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.sub4{
+    width: 24.5%;
+    background-color: blue;
+    height: 350px;
+    position: relative;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.sub4 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.alimg img{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.para{
+    text-align: center;
+    flex-wrap: wrap
+}
+.para h1{
+    color: #0e3051 ;
+}
+.pp{
+    width: 32.6%;
+}
+.pp img{
+    width: 100%;
+}
+.pic3{
+    display:flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.page{
+    background-color: #0e3051 ;
+    color: white;
+}
+.hh{
+    text-align: center;
+    color: yellow;
+    padding-top: 20px;
+}
+.bar2{
+    text-align: center;
+    padding: 20px;
+    
+}
+.bar2 a{
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.image{
+    display: flex;
+    padding: 20px;
+    
+}
+.pics{
+    width: 24.5%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pics img{
+    width: 100%;
+}
+.price{
+    display: flex;
+}
+.per{
+    color: rgb(204, 28, 57);
+    padding-left: 10px;
+}
