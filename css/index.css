@@ -43,18 +43,17 @@
 .icon{
     display: flex;
     gap: 10px;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .s1{
     color: white;
-    padding-bottom: 40px;
+    padding-bottom: px;
     /*border-right: 1px solid white;*/
     
 }
 .icons span{
    /* border-right: 1px solid white;*/
-    padding:1px;
+    padding:px;
     align-items: center;
     justify-content: center;
 }
@@ -250,6 +249,7 @@
 .page{
     background-color: #0e3051 ;
     color: white;
+    flex-wrap: wrap;
 }
 .hh{
     text-align: center;
@@ -270,6 +270,7 @@
 .image{
     display: flex;
     padding: 20px;
+    flex-wrap: wrap;
     
 }
 .pics{
@@ -289,6 +290,7 @@
 }
 .page1{
     display: flex;
+    flex-wrap: wrap;
 }
 .image2{
     display: flex;
@@ -326,7 +328,7 @@
 .left{
     background-color: #0e3051;
     margin-top: 20px;
-    width: 55%;
+    width: 53%;
     border-radius: 0 0 3% 3%;
     
 }
@@ -338,4 +340,67 @@
 .boti{
     text-align: center;
     padding: 10px;
+}
+.look{
+    text-align: center;
+    color: #0e3051;
+    padding: 10px;
+}
+.container1{
+    display: flex;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 24.5%;
+    position: relative;
+    padding: 2px;
+}
+.but1{
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    height: 50px;
+    width: 175px;
+    border: 2px solid #fff;
+    background: transparent;
+    opacity: 0;
+}
+.card1:hover .but1{
+    opacity: 1;
+}
+.card1:hover img{
+    filter: brightness(.5);
+}
+.card1 img{
+    width: 100%;
+    transition: .5s;
+    border-radius:10px ;
+}
+.ig{
+    position: absolute;   
+    background-color:white;
+    border-radius: 5%;
+    transform: translate(-50%,-50%);
+    top: 15%;
+    right: 3%;
+    font-size: 5%;
+}
+.ig img{
+    width: 100%;
+}
+.butt button{
+    background-color: #ffdf00;
+    border: 1px ;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 1% 5%;
+    text-align: center;
+}
+.butt{
+    text-align: center;
 }

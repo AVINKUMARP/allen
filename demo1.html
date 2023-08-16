@@ -5,30 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .card{
-            position: relative;
+        .container1{
+            display: flex;
+            padding: 20px;
         }
-        .button{
+        .card1{
+            width: 24.5%;
+            position: relative;
+            padding: 10px;
+           
+        }
+        .but1{
+            color: #fff;
+            font-size: 15px;
             position: absolute;
-             bottom: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            height: 50px;
+            width: 175px;
+            border: 2px solid #fff;
+            background: transparent;
             opacity: 0;
-            background-color: rgba(0,0,0,.6);
-    border-radius: 10px;
+        }
+        .card1:hover .but1{
+            opacity: 1;
+        }
+        .card1:hover img{
+            filter: brightness(.5);
+        }
+        .card1 img{
+            width: 100%;
+            transition: .5s;
+            border-radius:10px ;
+        }
+        .ig{
+            position: absolute;   
+            background-color:white;
+            border-radius: 5%;
+            transform: translate(-50%,-50%);
+            top: 12%;
+            right: 3%;
+            font-size: 5%;
+        }
+        .ig img{
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <div class="container1">
-        <div>SHOP THE LOOKBOOK</div>
-        <div class="card"><img src="./images/allen-solly-mens-1_2x.jfif" alt="loading...">
-            <button>SHOP THE LOOK</button>
+        <div class="card1"><img src="./images/allen-solly-mens-1_2x.jfif" alt="loading...">
+            <button class="but1">SHOP THE LOOK</button>
+            <div class="ig"><img src="./images/v-hicon-share.svg" alt=""></div>
         </div>
-        <div class="card"><img src="./images/allen-solly-mens-3_2x.jfif" alt="loading..."></div>
-        <div class="card"><img src="./images/allen-solly-mens-2_2x.jfif" alt="loading..."></div>
-        <div class="card"><img src="./images/AS_D_W_LB_11.jfif" alt=""></div>
+        <div class="card1"><img src="./images/allen-solly-mens-3_2x.jfif" alt="loading...">
+            <button class="but1">SHOP THE LOOK</button>
+            <div class="ig"><img src="./images/v-hicon-share.svg" alt=""></div></div>
+        <div class="card1"><img src="./images/allen-solly-mens-2_2x.jfif" alt="loading...">
+            <button class="but1">SHOP THE LOOK</button>
+            <div class="ig"><img src="./images/v-hicon-share.svg" alt=""></div>
+        </div>
+        <div class="card1"><img src="./images/AS_D_W_LB_11.jfif" alt="">
+            <button class="but1">SHOP THE LOOK</button>
+            <div class="ig"><img src="./images/v-hicon-share.svg" alt=""></div>
+        </div>
     </div>
 </body>
 </html>
