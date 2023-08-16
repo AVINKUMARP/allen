@@ -80,6 +80,7 @@
 .aa a{
     text-decoration: none;
     padding: 20px;
+    color: black;
 }
 .first img{
     width: 100%;
@@ -285,4 +286,56 @@
 .per{
     color: rgb(204, 28, 57);
     padding-left: 10px;
+}
+.page1{
+    display: flex;
+}
+.image2{
+    display: flex;
+    padding: 20px;
+    width: 43%;
+    
+}
+.pics1{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.pics1 img{
+    width: 100%;
+}
+.price{
+    display: flex;
+}
+.per{
+    color: rgb(204, 28, 57);
+    padding-left: 10px;
+}
+.pics2 img{
+        width: 100%;
+       
+}
+.bot{
+    background-color:#0e3051 ;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.left{
+    background-color: #0e3051;
+    margin-top: 20px;
+    width: 55%;
+    border-radius: 0 0 3% 3%;
+    
+}
+.both h2{
+    color: white ;
+    text-align: center;
+    padding-top:20px ;
+}
+.boti{
+    text-align: center;
+    padding: 10px;
 }
