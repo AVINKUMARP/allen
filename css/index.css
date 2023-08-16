@@ -354,7 +354,8 @@
 .card1{
     width: 24.5%;
     position: relative;
-    padding: 2px;
+    padding: 1px;
+    transition: .5s;
 }
 .but1{
     color: #fff;
@@ -369,18 +370,29 @@
     border: 2px solid #fff;
     background: transparent;
     opacity: 0;
+    transition: .5s;
 }
 .card1:hover .but1{
     opacity: 1;
+    
+}
+.card1:hover{
+    transform: translateY(-3%);
 }
 .card1:hover img{
     filter: brightness(.5);
+   
+    
 }
 .card1 img{
     width: 100%;
     transition: .5s;
     border-radius:10px ;
+  
 }
+/* .but1 button{
+    transition: .5s;
+} */
 .ig{
     position: absolute;   
     background-color:white;
@@ -403,4 +415,85 @@
 }
 .butt{
     text-align: center;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.img11{
+    width: 65%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.img11 img{
+    width: 100%;
+}
+.img12{
+    width: 32.8%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.img12 img{
+    width: 100%;
+}
+.img13{
+    width: 32.8%;
+    position: relative;
+    flex-wrap:wrap ;
+}
+.img13 img{
+    width: 100%;
+}
+.img14{
+    width: 65%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.img14 img{
+    width: 100%;
+}
+.but2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 50%;
+}
+.but2 button{
+    background-color: transparent;
+    border: 1px;
+    color: white;
+    font-size: 200%;
+}
+.container3{
+    position: relative;
+    padding: 10px 0px;
+}
+.card3{
+    background-color:#ffdf00 ;
+    text-align: center;
+    color:  #0e3051;
+    width: 30%;
+    border: 1px;
+    border-radius: 10px;
+    padding: 30px 10px;
+    font-size: 10px;
+    position: absolute; 
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+.but3 button{
+    background-color: #0e3051;
+    color: #ffdf00;
+    padding: 1% 10%;
+    border:1px;
+    border-radius:10px;
+}
+.img112 img{
+width: 10%;
+}
+.img111 img{
+width: 100%;
 }
