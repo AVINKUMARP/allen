@@ -32,7 +32,7 @@ body{
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -46,20 +46,19 @@ body{
 }
 .icon{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 .s1{
     color: white;
-    padding-bottom: px;
-    /*border-right: 1px solid white;*/
+    align-items: center;
+    padding-top: 10px;
     
 }
-.icons span{
-   /* border-right: 1px solid white;*/
-    padding:px;
-    align-items: center;
-    justify-content: center;
+.icons1{
+   display: flex;
+  
 }
 .lo img{
     width: 100px;
@@ -167,7 +166,7 @@ body{
 .sub1{
     width: 24.5%;
     background:linear-gradient(123deg, #fa0783, 18%,#2b7bfc);
-    height: 490px;
+    height: 520px;
     position: relative;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -181,7 +180,7 @@ body{
     width: 96%;
     padding-bottom: 30px;
     position: absolute;
-    top: 55%;
+    top: 52%;
     margin:7px;
     border-radius: 10px;
     display: flex;
@@ -193,7 +192,7 @@ body{
 .sub2{
     width: 24.5%;
     background: linear-gradient(117deg, #ffdf00, #ff0000 98%);
-    height: 490px;
+    height: 520px;
     position: relative;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -205,7 +204,7 @@ body{
 .sub3{
     width: 24.5%;
     background:linear-gradient(119deg, #009c8f, #ffdf00 99%);
-    height: 490px;
+    height: 520px;
     position: relative;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -217,7 +216,7 @@ body{
 .sub4{
     width: 24.5%;
     background-image: linear-gradient(117deg, #2b7bfc, #ff0000 98%);
-    height: 490px;
+    height: 520px;
     position: relative;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -271,7 +270,7 @@ body{
     color: white;
     text-decoration: none;
 }
-.image{
+.images1{
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
@@ -550,20 +549,22 @@ width: 100%;
     text-align: center;
     padding: 30px;
 }
-.h11 h1{
-}
 .ser2 input{
-    padding: 10% 40%;
-    justify-content:start ; 
+   padding: 10px 70px;
+   
     border-radius:5px ;  
     border: 1px solid black;
     background-color: #ffdf00;     
+}
+.ser2 input::placeholder{
+    font-size: 10px;
+    text-align: left;
 }
 .ser2{
     padding-top: 40px;
 }
 .sho{ 
-    padding-left: 200px;
+    padding-left: 60px;
     padding-top: 80px;
 }
 .but4 button{

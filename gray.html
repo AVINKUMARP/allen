@@ -4,83 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .container2{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .img11{
-            width: 63.5%;
-            position: relative;
-        }
-        .img11 img{
-            width: 100%;
-        }
-        .img12{
-            width: 32%;
-            position: relative;
-        }
-        .img12 img{
-            width: 100%;
-        }
-        .img13{
-            width: 32%;
-            position: relative;
-        }
-        .img13 img{
-            width: 100%;
-        }
-        .img14{
-            width: 63.5%;
-            position: relative;
-        }
-        .img14 img{
-            width: 100%;
-        }
-        .but2{
-            position: absolute;
-            transform: translate(-50%,-50%);
-            top: 80%;
-            left: 50%;
-        }
-        .but2 button{
-            background-color: transparent;
-            border: 1px;
-            color: white;
-            font-size: 20px;
-            font-weight: 70px;
-        }
-            
-           
-    </style>
+  <style>
+    .container{
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        gap:20px;
+        height: 400px;
+        align-items: center;
+        
+    }
+    .container::-webkit-scrollbar{
+        display: none;
+    }
+    .container img{
+        width: 300px;
+        transition: .5s;
+        
+
+    }
+
+    img:hover{
+        transform: scale(1.2);
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       
+    }
+  </style>
 </head>
 <body>
-    <div class="container2">
-        <div class="img11">
-            <img src="./images/AS_D_Gender_Men_02.jpeg" alt="loading...">
-            <div class="but2">
-                <button>MEN</button>
-            </div>
-        </div>
-        <div class="img12">
-            <img src="./images/AS_D_Gender_Women_02.jpeg" alt="loading...">
-            <div class="but2">
-                <button>WOMEN</button>
-            </div>
-        </div>
-        <div class="img13">
-            <img src="./images/AS_D_Gender_Girls_02.jpeg" alt="loading...">
-            <div class="but2">
-                <button>GIRLS</button>
-            </div>
-        </div>
-        <div class="img14">
-            <img src="./images/AS_D_Gender_Boys_V2_02.jpeg" alt="loading...">
-            <div class="but2">
-                <button>BOYS</button>
-            </div>
-        </div>
+    <div class="container">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
+       <img src="./images/allen-solly-mens-1_2x.jfif" alt="">
     </div>
 </body>
 </html>
