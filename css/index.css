@@ -43,18 +43,18 @@ body{
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
     color: white;
+    padding-top:15px ;
 }
 .icon{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    padding-top: 20px;
 }
 .s1{
     color: white;
     align-items: center;
-    padding-top: 10px;
-    
+    padding-top: 20px;
+    padding-left: 10px;
 }
 .icons1{
    display: flex;
@@ -79,6 +79,10 @@ body{
 .ser{
     padding: 40px 20px;
 }
+.ser input{
+    border: 1px;
+    font-size: 18px;
+}
 .aa a{
     text-decoration: none;
     padding: 20px;
@@ -89,7 +93,7 @@ body{
 }
 .r{
     display: flex;
-    gap: 5px;
+    gap: 30px;
     padding: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -274,6 +278,7 @@ body{
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
+    padding-left: 45px;
     
 }
 .pics{
@@ -593,4 +598,108 @@ width: 100%;
 }
 .img33 img{
     width: 25%;
+}
+.container7{
+    display: flex;
+    padding-left: 50px; 
+}
+.subcon1{
+display: flex;
+width: 49%;
+padding: 20px;
+text-align: justify;
+}
+.subcon1 h3{
+padding-left: 40px;
+}
+.subcon2{
+width: 49%;
+padding: 20px;
+text-align: justify;
+padding-left: 150px;
+}
+.img41{
+display: flex;
+
+}
+.one1 img{
+width: 200%;
+
+}
+.one1{
+padding: 10px;
+}
+.two2{
+padding-left:20px ;
+}
+.right3{
+display: flex;
+flex-wrap: wrap;
+}
+.righth3{
+width: 49%;
+}
+.righta{
+width: 49%;
+padding-top: 18px;
+}
+.righta a{
+padding:0px 10px;
+}
+.right1 input{
+border: 1px;
+padding:10px 20px;
+font-size: 15px;
+}
+.right2{
+padding-left: 20px;
+}
+.right3{
+padding-left: 20px;
+}
+.list1{
+    padding:0 20px ;
+}
+.list2{
+    padding:0 20px ;
+}
+.botline1{
+    padding-left: 130px;
+}
+.container8{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 130px;
+}
+.l11{
+    width: 49%;
+}
+.r11{
+    width: 49%;
+}
+.container9{
+    width: 24.5;
+    padding-top: 20px;
+}
+.container9 button{
+display: flex;
+background-color:  #ffdf00;
+justify-content: center;
+align-items: center;
+font-size:7px;
+border-radius: 40px;
+border: 1px;
+padding: 0px 50px 0px 10px;
+}
+.card12 b{
+    font-size: 10px;
+}
+.card12{
+padding-top: 5px;
+}
+.card11 img{
+width: 60%;
+}
+.subcont{
+display: flex;
 }
